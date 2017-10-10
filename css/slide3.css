@@ -1,0 +1,78 @@
+.slide3{
+	position: relative;
+}
+.slide3 .ani .to-youth-lg{
+	width: 100%;
+	height: 100%;
+}
+.slide3 #A1{
+	position: absolute;
+	width: 50%;
+	height: 40%;
+	top: 10%;
+	left: 25%;
+}
+.slide3 #A2{
+	width: 100%;
+	height: 20%;
+	position:absolute;
+	bottom: 0;
+}
+.slide3 #A3{
+	left: 10%;
+	top: 35%;
+	position: absolute;
+	width: 30%;
+	height: 20%;
+}
+.slide3 #A4{
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top:65%;
+	left: 36%;
+	}
+	.slide3 #A5{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top:20%;
+	left: 65%;
+	}
+	.slide3 #A6{
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top:66%;
+	left: 80%;
+	}
+	.slide3 #A7{
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top:68%;
+	left: 60%;
+	}
+	.slide3 #A8{
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top:75%;
+	left: 20%;
+	}
+.slide3 .ani .to-youth-ft{
+	width: 100%;
+	height: 100%;
+}
+.slide3 .ani .to-youth-sl{
+	width: 100%;
+	height: 100%;
+}
+.slide3 .ani .to-youth-eg{
+	width: 100%;
+	height: 100%;
+}
+.slide3 .ani .to-youth-gl{
+	width: 100%;
+	height: 100%;
+}

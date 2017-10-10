@@ -1,0 +1,127 @@
+.beij{
+   	  width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /*background: url(images/main.jpg);*/
+      /*background:rgba(241,90,36,.6);*/
+      background: url(../img/images/tim.gif);
+      background-size:100% 100% ;
+   }
+   .wenzi{
+   	font-size:50px ;
+   	/*color:rgba(234,32,0,.8); */
+   	color: white;   	 
+   	margin: 10px;	
+   }
+   .beij-2{
+   	 width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background:rgba(241,90,36,.5);
+      background-size:100% 100% ;
+   }
+   .imga{
+   	width: 100%;
+   	height: 100%;
+   	animation: zhuan .2s linear 0s infinite alternate;
+   	text-align: center;
+   }
+   
+   @-webkit-keyframes zhuan{
+				form{
+					transform: rotateZ(-10deg)
+				}
+				to{
+					transform: rotateZ(10deg)
+				}
+			}
+	.img-1{
+	  width: 100%;
+      height: 100%;
+      background-size:100% 100% ;
+      position: absolute;
+      top: 0;
+      left: 0;
+	}
+	.shiwu-1{
+		width: 220px;
+		height: 220px;
+		background: url(../img/images/0.png) no-repeat;
+		background-size:100% 100% ;
+		animation: xun 8s linear 0s infinite ;
+		position: absolute;
+		left: -20%;
+		top: 80%;
+	}
+	@-webkit-keyframes xun{
+				form{
+					transform: rotateZ(0deg)
+				}
+				to{
+					transform: rotateZ(360deg)
+				}
+				100%{
+					width: 240px;
+					height: 240px;
+				}
+			}
+	.shiwu-2{
+		width: 140px;
+		height: 140px;
+		position: absolute;
+		top: 0;
+		right: 2%;
+	}
+	.shiwu-3{
+		width: 170px;
+		height: 170px;
+		position: absolute;
+		top: 80%;
+		right: 10%;
+	}
+	.shiwu-5{
+		width: 180px;
+		height: 150px;
+		position: absolute;
+		top: 7%;
+		left: 5%;
+	}
+	.wanzi-0{
+		font-size:50px ;
+	   	/*color:rgba(234,32,0,.8); */
+	   	color: white;
+	   	text-align:left;
+	  margin: 5px;
+	}
+	.wenzi-1{
+		width: 70%;
+		font-size:25px ;
+		padding: 10px;
+		color: white;
+		font-weight:100 ;
+		position: absolute;
+		top: 30%;
+		left: 10%;
+	}
+	.wenzi-2{
+		width: 70%;
+		height: auto;
+		font-size:30px ;
+		padding: 10px;
+		color: white;
+		font-weight:100 ;
+		position: absolute;
+		top: 60%;
+		left: 20%;
+	}
+	.wenzi-3{
+		width: 70%;
+		height: auto;
+		font-size:40px ;
+		padding: 10px;
+		color: white;
+		font-weight:200 ;
+		position: absolute;
+		top: 60%;
+		left: 20%;
+	}

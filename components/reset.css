@@ -57,15 +57,6 @@ a{
 }
 .swiper-slide{
 	text-align: center;
-	line-height: 300px;
 	font-size: 40px;
-}
-.slide1{
-	background-color: orange;
-}
-.slide2{
-	background-color: royalblue;
-}
-.slide3{
-	background-color: tomato;
+	position: relative;
 }

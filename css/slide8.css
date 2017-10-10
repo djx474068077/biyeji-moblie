@@ -1,0 +1,107 @@
+.theseyears-box{
+width: 100%;
+height: 100%;
+background:url("http://img2.maka.im/user/1960224/images/192389c1b941224d4ecbe8cb68cc1ed0.png@0-0-640-1008a_90Q.src");
+	background-size: 100% 100%;
+	padding-top: 30px;
+}
+.theseyears-box > div{
+	width: 100%;
+	height: 125px;
+	position: relative;
+	
+}
+@-webkit-keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-20deg);
+	}
+}
+.theseyears-box > div > .theseyears{
+	transition: all 0s ease 0s;
+	position: absolute;
+	left: 20%;
+	transform: translateX(-40%);
+	width: 60%;
+	height: 100%;
+	background: url("http://img2.maka.im/user/1189076/images/d5ade2d7521e3d28f221e3bd20d042ba.png@0-0-0-0a_90Q.src") no-repeat;
+	background-size: 100%;
+	animation: move 2s ease 0s infinite alternate forwards;
+}
+@-webkit-keyframes change{
+	from{
+		background: rgba(255,255,255,.5);
+	}
+	to{
+		background: rgba(255,255,255,.8);
+	}
+}
+.theseyears-box .atricle{
+	padding-top: 40px;
+	width: 90%;
+	height: 280px;
+	background: rgba(255,255,255,.5);
+	font-style: normal;
+	font-size: 16px;
+	position: relative;
+	left: 50%;
+	transition: all 0s ease 0s;
+	transform: translateX(-50%);
+	line-height: 1.8;
+	text-align: center;
+	/*transform:font-size*/
+	animation: change 3s ease 1s infinite alternate forwards;
+}
+@-webkit-keyframes pet{
+	from{
+		transform: translateX(0px);
+	}
+	to{
+		transform: translateX(-200px);
+	}
+}
+.theseyears-box > .books > .pet{
+	float: right;
+	width: 59px;
+	height: 44px;
+	background: url("http://img2.maka.im/user/1189076/images/7366fce830bc7c67d351c77ccfc92f73.png@0-0-0-0a_90Q.src") no-repeat;
+	background-size: 100%;
+	animation: pet 2s ease 1s infinite alternate forwards;
+}
+@-webkit-keyframes reade{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(45deg);
+	}
+}
+.theseyears-box > .books >.read{
+	width: 123px;
+	height: 75px;
+	background: url("http://img2.maka.im/user/1189076/images/f422b16e21d83db10eb00de96258d3df.png@0-0-0-0a_90Q.src") no-repeat;
+	background-size: 100%;
+	animation: reade 2s ease 2s infinite alternate forwards;
+}
+@-webkit-keyframes persicle{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg)
+		}
+}
+.theseyears-box > .books > .persicl{
+	margin-left: 200px;
+	width: 68px;
+	height: 50px;
+	background: url("http://img2.maka.im/user/1189076/images/7a5d50b2cc8a695b8427964117aed25b.png@0-0-0-0a_90Q.src") no-repeat;
+	background-size: 100%;
+	animation: persicle 2s ease 1s infinite alternate forwards;
+}
+#wenzi{
+	position: absolute;
+	left: -1000px;
+}

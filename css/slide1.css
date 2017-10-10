@@ -1,0 +1,30 @@
+.slide1{
+	background: url(../img/index/index-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide1 .title{
+	position: absolute;
+	width: 40%;
+	top: 10%;
+	left: 30%;
+}
+.slide1 .feiji{
+	position: absolute;
+	width: 80px;
+	top: 5%;
+	left: 60%;
+}
+.top-icon{
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -24px;
+	z-index: 99;
+	animation: tonext 2s infinite;
+}
+@-webkit-keyframes tonext{
+	0% {bottom: -100%;opacity: .4;}
+	50% {bottom: 30px;opacity: 1;}
+	100% {bottom: 30px;opacity: 1;}
+}

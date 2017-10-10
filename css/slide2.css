@@ -1,0 +1,48 @@
+.slide2{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/introduce-image/4db1e508e7c67210d7107c86d3e8dbec.jpg) no-repeat;
+	background-size:100%;
+	position: relative;
+}
+.slide2 .white-box{
+	width: 70%;
+	/*height:600px;*/
+	border: 1px solid white;
+	box-shadow: 0px 0px 50px 8px snow;
+	position: absolute;
+	padding: 20px 0;
+	top:20%;
+	left:15%;
+}
+.slide2 .toplogo{
+	display: block;
+	width: 100%;
+	height:200px;
+	background:url(../img/introduce-image/a00bb7efb1e3c67e85091a4c7318ca6c.png) no-repeat;
+	background-size:70%;
+}
+.slide2 p img{
+	width: 80%;
+}
+.slide2 p{
+	display: block;
+	height:60px;
+	}
+.swiper-wrapper{
+   transition-timing-function:  ease-in-out   ;
+}
+.ani{
+   animation-timing-function:  ease-in-out   ;
+}
+@-webkit-keyframes change{
+	from{
+		transform:rotateY(0deg) ;
+	}
+	to{
+		transform:rotateY(360deg)
+	}
+}
+.slide2 .white-box{
+	animation: change 2s ease-in-out 0s alternate;
+}
