@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+		<link rel="stylesheet" type="text/css" href="components/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="components/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="components/reset.css"/>
+		<title>毕业季</title>
+	</head>
+	<body>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide slide1">
+		        	<p class="ani"
+		        	swiper-animate-effect="bounceInRight" 
+		        	swiper-animate-duration="1s" 
+		        	swiper-animate-delay=".2s">
+		        		你好！
+		        	</p>
+		        </div>
+		        <div class="swiper-slide slide2">
+		        	<p class="ani"
+		        	swiper-animate-effect="bounceInLeft" 
+		        	swiper-animate-duration="1s" 
+		        	swiper-animate-delay=".2s">
+		        		开心不？？
+		        	</p>
+		        </div>
+		        <div class="swiper-slide slide3">
+		        	<p class="ani"
+		        	swiper-animate-effect="shake" 
+		        	swiper-animate-duration="1s" 
+		        	swiper-animate-delay=".2s" 
+		        	swiper-animate-iteration-count="infinite">开心就。。。
+		        		<a class="mytel" href="tel:15616222141">call me</a>
+		        	</p>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <!--<div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>-->
+		    
+		    <!-- 如果需要滚动条 -->
+		  <!--  <div class="swiper-scrollbar"></div>-->
+		</div>
+		
+		<script src="components/jquery-1.12.3.min.js"></script>
+		<script src="components/swiper-3.4.2.jquery.min.js"></script>
+		<script src="components/swiper.animate1.0.2.min.js"></script>
+		<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		  	initialSlide :0,			//设置初始化时 slide的索引
+		    direction: 'vertical',		//设置slide的滑动方向，vertical表示垂直，horizontal表示水平
+		    speed:300,					//设置slide滑动开始到结束的时间（单位ms），也是触摸滑动时释放至贴合的时间
+		    autoplay:3000,				//设置slide自动滑动的时间间隔
+		    //grabCursor:true,			//true时，覆盖时鼠标变成手掌的样子，拖动时鼠标变成抓手形状
+			autoplayStopOnLast:true,	//当切换到最后一个slide时停止自动切换    
+		    
+		    //loop: true,
+		    
+		    
+		    mousewheelControl: true,	//鼠标滚轮是否可用
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    
+		    // 如果需要前进后退按钮
+//		    nextButton: '.swiper-button-next',
+//		    prevButton: '.swiper-button-prev',
+		    
+		    // 如果需要滚动条
+//		    scrollbar: '.swiper-scrollbar',
+
+		 	onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+		    	swiperAnimateCache(swiper); //隐藏动画元素 
+		    	swiperAnimate(swiper); //初始化完成开始动画
+		  	}, 
+		  	onSlideChangeEnd: function(swiper){ 
+		    	swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+		  	},
+		  	
+		  })     
+		  
+  
+		  </script>
+	</body>
+</html>
