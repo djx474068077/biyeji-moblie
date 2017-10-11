@@ -21,10 +21,17 @@
 	left: 50%;
 	margin-left: -24px;
 	z-index: 99;
-	animation: tonext 2s infinite;
 }
-@-webkit-keyframes tonext{
-	0% {bottom: -100%;opacity: .4;}
-	50% {bottom: 30px;opacity: 1;}
-	100% {bottom: 30px;opacity: 1;}
+.audio-icon{
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	width: 40px;
+	height: 40px;
+	z-index: 100;
+	animation: music 3s linear infinite;
+}
+@-webkit-keyframes music{
+	from{transform: rotateZ(0deg);}
+	to{transform: rotateZ(360deg);}
 }
