@@ -97,22 +97,27 @@
 		width: 70%;
 		font-size:25px ;
 		padding: 10px;
-		color: white;
+		color: rgba(255,255,255,1);
 		font-weight:100 ;
 		position: absolute;
 		top: 30%;
 		left: 10%;
+		border: 1px solid white;
+		background: rgba(249,147,40,.3);
+		line-height: 35px;
 	}
 	.wenzi-2{
 		width: 70%;
 		height: auto;
 		font-size:30px ;
 		padding: 10px;
-		color: white;
+		color: rgba(255,255,255,1);
 		font-weight:100 ;
 		position: absolute;
 		top: 60%;
 		left: 20%;
+		border: 1px solid white;
+		background: rgba(249,147,40,.3);
 	}
 	.wenzi-3{
 		width: 70%;
